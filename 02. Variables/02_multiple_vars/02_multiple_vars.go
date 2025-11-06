@@ -12,4 +12,5 @@ func main() {
 	// Using short variable declaration for size. This can only be used inside functions.
 	size := "Medium"
 	fmt.Println(size, coffee_name, "price is $", coffee_price)
+	fmt.Printf("%s %s price is $%.2f\n", size, coffee_name, coffee_price)
 }
